@@ -1,0 +1,10 @@
+ch = input("chaine =")
+ #---------------------------------------------------
+ #on retourne la chaine
+ # pour la comparer avec la chaine de départ 
+ #en fonction du test on détermine si ch est un palin ou pas 
+ #---------------------------------------------------
+if ch == ch[::-1]:
+    print(ch, "est un palindrome",)
+else:
+    print(ch, "n'est pas un palindrome")
